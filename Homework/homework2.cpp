@@ -19,13 +19,15 @@ int main()
     cout << "     |__|   |__|-\"    `97  \n\n";
     // Program 2
     cout << "Program 2\n";
-    float N1, N2;
+    float N1, N2, N3;
     cout << "This program calculates the sum and product of three numbers.\n";
     cout << "Enter the first number: ";
     cin >> N1;
     cout << "Enter the second number: ";
     cin >> N2;
-    cout << "The sum is " << N1 + N2 << endl << endl;
+    cout << "Enter the third number: ";
+    cin >> N3;
+    cout << "The sum is " << N1 + N2 + N3 << endl << endl;
     // Program 3
     const float Pi = 3.1416;
     cout << "Program 3\n";
